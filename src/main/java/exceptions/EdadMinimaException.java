@@ -1,7 +1,7 @@
 package exceptions;
 
 public class EdadMinimaException extends Exception{
-    private int age;
+    private final int age;
 
     public EdadMinimaException(String message, int age){
         super(message);
